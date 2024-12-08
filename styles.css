@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+h1, h2 {
+    color: #333;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #444;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.skills-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 20px;
+}
+.project h3 a {
+    color: #007BFF;
+    font-size: 1.2rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table thead th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f1f7ff;
+}
+a {
+    text-decoration: none; /* Removes underline */
+    color: #007BFF; /* Default link color */
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-shadow: 0 0 5px rgba(0, 91, 179, 0.5); /* Adds subtle glow effect */
+}
+
+a:active {
+    color: #003366; /* Even darker color when clicked */
+}
+
+footer {
+    background-color: #282c34; /* Dark background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow at the top */
+}
+
+footer p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+footer p:nth-child(2) {
+    font-style: italic; /* Slight emphasis on the second line */
+    color: #adb5bd; /* Lighter shade of text */
+}
